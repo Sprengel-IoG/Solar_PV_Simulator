@@ -6,8 +6,14 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
+greaterThan(QT_MAJOR_VERSION, 4){
+QT += widgets printsupport
 CONFIG += c++11
+} else {
+QMAKE_CXXFLAGS += -std=c++0x
+}
+
+
 
 TARGET = Solar_PV_v0
 TEMPLATE = app
