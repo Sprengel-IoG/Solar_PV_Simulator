@@ -30,9 +30,6 @@ void SolarData::CreateFileList( )
 
         }
     }
-
-
-
 }
 
 QList<QString> SolarData::Output_Country_List()
