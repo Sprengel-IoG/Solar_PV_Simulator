@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>IoG-At-small-2.jpg</file>
+        <file>IoG-At-small.jpg</file>
+    </qresource>
+</RCC>
